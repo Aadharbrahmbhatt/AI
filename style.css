@@ -1,0 +1,222 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: gray;
+    color:#fff;
+    display: flex;
+}
+slider{
+    width: 80px;
+    height: 100vh;
+    background-color: lightgray;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 5px;
+}
+.logo{
+    width: 12vmin;
+    height: 12vmin;
+    border-radius: 50%;
+}
+.ajecuts-size{
+    width: 8vmin;
+    height: 8vmin;
+    background-image: url("fullscreen.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.list{
+   gap:5vmin;
+}
+.round{
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    margin-top: 5vmin;
+    background-color: darkgray;
+}
+.plus{
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    margin-top: 3vmin;
+    background-image: url("plus.jpg");
+    background-size: cover;
+    background-color: darkgray;
+}
+.history{
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    margin-top: 2vmin;
+    background-image: url("history.jpg");
+    background-size: cover;
+    background-color: darkgray;
+}
+.round2{
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    margin-top: 2vmin;
+    background-color: darkgray;
+}
+.settings{
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    background-image: url("settings.jpg");
+    background-size: cover;
+    margin-top: 30vmin;
+    background-color: darkgray;
+}
+/* Main */
+.Logo{
+    background-image: url("ai.png");
+    background-size: cover;
+    width: 12vmin;
+    height: 12vmin;
+    border-radius: 50%;
+    margin-top: 3vmin;
+    margin-left: 165vmin;
+}
+.heading-text{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 150px;
+    text-align: center;
+}
+.inputSearch-box{
+    width: 110vmin;
+    height: 20vmin;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35vmin;
+    background-color: rgba(199, 199, 199, 0.861);
+    border-radius: 5vmin;
+    display: flex;
+    gap:5vmin;
+}
+.voice-search{
+    width: 7vmin;
+    height: 7vmin;
+    background-image: url("voiceSearch.jpg");
+    background-size: cover;
+    margin-top: 9%;
+    border-radius: 50%;
+}
+.inputsearch{
+    border: 2px solid #fff;
+    width: 90vmin;
+    height: 15vmin;
+    border-radius: 5vmin;
+    align-items: center;
+    justify-content: center;
+}
+.search1{
+    width: 450px;
+    height: 45px;
+    border: none;
+    margin-top: 5px;
+    background-color: transparent;
+    text-align: left;
+    border-radius: 5vmin;
+    margin-right: 15vmin;
+    padding: 0 10px;
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+    color: #333;
+}
+.itemss{
+    display: flex;
+}
+.attechments{
+    background-image: url("attechments.jpg");
+    background-size: cover;
+    width: 5vmin;
+    height: 5vmin;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+.add-items{
+    background-image: url("add.jpg");
+    background-size: cover;
+    width: 5vmin;
+    height: 5vmin;
+    margin-left: 15px;
+    border-radius: 25%;
+}
+.main-tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tools{
+    width: 110vmin;
+    height: 8vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15vmin;
+}
+.tool1{
+    width: 14vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+}
+.tool2{
+    width: 14vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+}
+.tool3{
+    width: 14vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+}
+.tooln{
+    width: 14vmin;
+    height: 6vmin;
+    border-radius: 2vmin;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 1px;
+    display: flex;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
